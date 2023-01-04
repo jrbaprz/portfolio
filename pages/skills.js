@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <div className="min-h-screen w-screen bg-neutral-100 p-6 md:p-10 xl:p-16">
+      <div className="w-screen bg-neutral-100 p-6 md:p-10 xl:p-20">
         <section className="flex flex-col pt-16">
           <h1 className="flex font-extrabold text-5xl md:text-7xl">
             Technical Skills
@@ -11,8 +11,8 @@ const Skills = () => {
         </section>
 
         <div className="md:grid grid-cols-3 md:pt-16">
-          <section className="pt-12 text-lg md:pt-0">
-            <h1 className="text-2xl font-semibold">Languages</h1>
+          <section className="pt-12 text-lg md:pt-0 xl:text-2xl xl:font-light">
+            <h1 className="text-2xl font-semibold xl:text-3xl">Languages</h1>
             <ul className="pt-4">
               <li>HTML5</li>
               <li>CSS3</li>
@@ -20,8 +20,8 @@ const Skills = () => {
             </ul>
           </section>
 
-          <section className="pt-8 text-lg md:pt-0">
-            <h1 className="text-2xl font-semibold">Frameworks & Libraries</h1>
+          <section className="pt-8 text-lg md:pt-0 xl:text-2xl xl:font-light">
+            <h1 className="text-2xl font-semibold xl:text-3xl">Frameworks</h1>
             <ul className="pt-4">
               <li>React / NextJS</li>
               <li>Tailwind CSS</li>
@@ -30,8 +30,8 @@ const Skills = () => {
             </ul>
           </section>
 
-          <section className="pt-8 text-lg md:pt-0">
-            <h1 className="text-2xl font-semibold">Tools</h1>
+          <section className="pt-8 text-lg md:pt-0 xl:text-2xl xl:font-light">
+            <h1 className="text-2xl font-semibold xl:text-3xl">Tools</h1>
             <ul className="pt-4">
               <li>Git</li>
               <li>Shopify API</li>

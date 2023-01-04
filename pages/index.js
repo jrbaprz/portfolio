@@ -6,7 +6,7 @@ import Projects from "./projects";
 const index = () => {
   return (
     <>
-      <div className="min-h-screen w-screen bg-neutral-100 p-6 md:p-10 xl:p-16">
+      <div className="min-h-screen w-screen bg-neutral-100 p-6 md:p-10 xl:p-20">
         <section className="flex flex-col pt-52 md:hidden">
           <h1 className="flex font-extrabold text-7xl">J.R</h1>
           <h1 className="flex font-extrabold text-7xl">Perez</h1>
@@ -16,13 +16,9 @@ const index = () => {
           </h2>
         </section>
 
-        <section className="hidden md:flex flex-col pt-72">
-          <h1 className="flex font-extrabold text-8xl xl:text-[10rem]">
-            J.R Perez
-          </h1>
-          <h2 className="text-3xl font-bold pt-2 xl:text-5xl">
-            Frontend Web Developer
-          </h2>
+        <section className="hidden md:flex flex-col pt-72 xl:pt-12">
+          <h1 className="flex font-extrabold text-8xl">J.R Perez</h1>
+          <h2 className="text-3xl font-bold pt-2">Frontend Web Developer</h2>
         </section>
 
         <div className="md:hidden">
@@ -38,7 +34,7 @@ const index = () => {
           </section>
         </div>
 
-        <div className="hidden md:grid grid-cols-2 pt-24 pb-6 text-xl xl:text-3xl xl:pb-16">
+        <div className="hidden md:grid grid-cols-2 pt-24 pb-6 text-xl lg:text-2xl">
           <section className="flex flex-col font-light gap-2">
             <h2 className="font-light underline underline-offset-4">
               dev@jrbaprz.com
@@ -54,8 +50,8 @@ const index = () => {
         </div>
 
         <div>
-          <div className="border-black border-t-4 mt-2 md:border-t-6 xl:border-t-8" />
-          <div className="flex justify-center pt-28 xl:hidden">
+          <div className="border-black border-t-4 mt-2 md:border-t-6" />
+          <div className="flex justify-center pt-20 md:pt-28">
             <svg
               className="w-8 animate-bounce"
               fill="none"
