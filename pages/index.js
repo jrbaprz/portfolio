@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Skills from "./skills";
+import Projects from "./projects";
 
 const index = () => {
   return (
@@ -53,7 +54,7 @@ const index = () => {
         </div>
 
         <div>
-          <div className="border-black border-t-4 md:border-t-6 xl:border-t-8" />
+          <div className="border-black border-t-4 mt-2 md:border-t-6 xl:border-t-8" />
           <div className="flex justify-center pt-28 xl:hidden">
             <svg
               className="w-8 animate-bounce"
@@ -73,6 +74,7 @@ const index = () => {
         </div>
       </div>
       <Skills />
+      <Projects />
     </>
   );
 };
