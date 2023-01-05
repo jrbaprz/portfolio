@@ -3,11 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import ditta from "../public/ditta.jpg";
 import stak from "../public/stak.jpg";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <>
-      <div className="w-screen bg-neutral-100 p-6 md:p-10 xl:p-20">
+      <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
         <section className="flex flex-col pt-16">
           <h1 className="flex font-extrabold text-5xl md:text-7xl">Projects</h1>
         </section>
@@ -15,7 +16,16 @@ const Projects = () => {
         {/* ===== Project ===== */}
 
         <div className="pb-12 lg:grid grid-cols-2 md:pt-16">
-          <section className="pt-12 md:pt-0">
+          <motion.section
+            className="pt-12 md:pt-0"
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1,
+              delay: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
             <Link href="https://dittaartigianaleto.vercel.app/">
               <Image
                 src={ditta}
@@ -23,9 +33,18 @@ const Projects = () => {
                 className="border-2 border-black mb-2 rounded-md"
               />
             </Link>
-          </section>
+          </motion.section>
 
-          <section className="lg:flex flex-col justify-center lg:p-8">
+          <motion.section
+            className="lg:flex flex-col justify-center lg:p-8"
+            initial={{ opacity: 0, x: 25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-2xl font-semibold xl:text-3xl">
               Ditta Artigianale Toronto
             </h1>
@@ -55,12 +74,22 @@ const Projects = () => {
                 </svg>
               </div>
             </Link>
-          </section>
+          </motion.section>
         </div>
 
         {/* ===== Project ===== */}
+
         <div className="lg:grid grid-cols-2 md:pt-16">
-          <section className="pt-4 text-lg md:pt-0 order-2">
+          <motion.section
+            className="pt-4 text-lg md:pt-0 order-2"
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1,
+              delay: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
             <Link href="http://stakbuilds.com/">
               <Image
                 src={stak}
@@ -68,8 +97,17 @@ const Projects = () => {
                 className="border-2 border-black mb-2 rounded-md"
               />
             </Link>
-          </section>
-          <section className="lg:flex flex-col justify-center lg:text-right lg:p-8">
+          </motion.section>
+          <motion.section
+            className="lg:flex flex-col justify-center lg:text-right lg:p-8"
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-2xl font-semibold xl:text-3xl">Stakreative</h1>
             <h2 className="md:text-lg xl:text-2xl">
               Creative Real Estate Wordpress Website
@@ -97,9 +135,17 @@ const Projects = () => {
                 </svg>
               </div>
             </Link>
-          </section>
+          </motion.section>
         </div>
-        <div className="border-black border-t-4 mt-12 md:border-t-6" />
+        <motion.div
+          className="border-black border-t-4 mt-12 md:border-t-6"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.5,
+          }}
+          viewport={{ once: true }}
+        />
       </div>
     </>
   );
