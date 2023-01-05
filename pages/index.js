@@ -203,7 +203,7 @@ const index = () => {
             viewport={{ once: true }}
           />
           <motion.div
-            className="flex justify-center pt-20 md:pt-28 xl:pt-12"
+            className="flex justify-center pt-12 md:pt-28 xl:pt-12"
             initial={{ opacity: 0, y: -25 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
