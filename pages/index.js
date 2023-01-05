@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import Skills from "./skills";
 import Projects from "./projects";
 import { motion } from "framer-motion";
@@ -7,6 +8,10 @@ import { motion } from "framer-motion";
 const index = () => {
   return (
     <>
+      <Head>
+        <title>J.R Perez | Web Developer</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="min-h-screen w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20 xl:pt-32">
         <motion.section
           className="flex flex-col pt-52 md:hidden"
