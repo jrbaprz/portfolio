@@ -74,17 +74,6 @@ const index = () => {
             >
               <Link href="https://github.com/jrbaprz">GitHub</Link>
             </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: -25 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: 2.5,
-              }}
-              viewport={{ once: true }}
-            >
-              <Link href="https://www.instagram.com/jrbaprz/">Instagram</Link>
-            </motion.div>
           </section>
         </div>
 
@@ -156,23 +145,6 @@ const index = () => {
                 href="https://github.com/jrbaprz"
               >
                 GitHub
-              </Link>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: 2.5,
-              }}
-              viewport={{ once: true }}
-            >
-              <Link
-                className="mr-auto hover:text-gray-400 bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
-                href="https://www.instagram.com/jrbaprz/"
-              >
-                Instagram
               </Link>
             </motion.div>
           </section>

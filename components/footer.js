@@ -26,12 +26,6 @@ const Footer = () => {
         >
           GitHub
         </Link>
-        <Link
-          className="hover:text-gray-400 bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
-          href="https://www.instagram.com/jrbaprz/"
-        >
-          Instagram
-        </Link>
       </ul>
       <p className="flex justify-end py-4 text-xs font-light text-white">
         © J.R Perez. All Rights Reserved. 2023
