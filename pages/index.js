@@ -14,7 +14,7 @@ const index = () => {
       </Head>
       <div className="min-h-screen w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20 xl:pt-32">
         <motion.section
-          className="flex flex-col pt-52 md:hidden"
+          className="flex flex-col pt-24 md:hidden"
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
