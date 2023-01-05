@@ -26,19 +26,19 @@ const Projects = () => {
           </section>
 
           <section className="lg:flex flex-col justify-center lg:p-8">
-            <h1 className="text-lg font-semibold md:text-2xl xl:text-3xl">
+            <h1 className="text-2xl font-semibold xl:text-3xl">
               Ditta Artigianale Toronto
             </h1>
-            <h2 className="text-sm md:text-lg xl:text-2xl">
+            <h2 className="md:text-lg xl:text-2xl">
               Business and e-Commerce Website
             </h2>
-            <p className="text-sm font-light pt-4 md:text-lg">
+            <p className="font-light pt-4 md:text-lg">
               An elegant business website for Ditta Artigianale Toronto using
               NextJS, Tailwind CSS, Framer Motion, and Shopify Storefront API.
             </p>
             <Link href="https://dittaartigianaleto.vercel.app/">
               <div className="flex pt-4 hover:text-neutral-500 duration-200">
-                <p className="text-sm pr-1 md:text-lg">Explore</p>
+                <p className="pr-1 md:text-lg">Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -60,7 +60,7 @@ const Projects = () => {
 
         {/* ===== Project ===== */}
         <div className="lg:grid grid-cols-2 md:pt-16">
-          <section className="pt-12 text-lg md:pt-0 order-2">
+          <section className="pt-4 text-lg md:pt-0 order-2">
             <Link href="http://stakbuilds.com/">
               <Image
                 src={stak}
@@ -70,19 +70,17 @@ const Projects = () => {
             </Link>
           </section>
           <section className="lg:flex flex-col justify-center lg:text-right lg:p-8">
-            <h1 className="text-lg font-semibold md:text-2xl xl:text-3xl">
-              Stakreative
-            </h1>
-            <h2 className="text-sm md:text-lg xl:text-2xl">
+            <h1 className="text-2xl font-semibold xl:text-3xl">Stakreative</h1>
+            <h2 className="md:text-lg xl:text-2xl">
               Creative Real Estate Wordpress Website
             </h2>
-            <p className="text-sm font-light pt-4 md:text-lg">
+            <p className="font-light pt-4 md:text-lg">
               A redesign of client&apos;s creative real estate agency website
               using Figma and Wordpress.
             </p>
             <Link href="http://stakbuilds.com/">
               <div className="flex pt-4 lg:justify-end hover:text-neutral-500 duration-200">
-                <p className="text-sm pr-1 md:text-lg">Explore</p>
+                <p className="pr-1 md:text-lg">Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

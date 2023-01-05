@@ -11,7 +11,7 @@ const Skills = () => {
         </section>
 
         <div className="md:grid grid-cols-3 md:pt-16">
-          <section className="pt-12 text-lg md:pt-0 xl:text-2xl xl:font-light">
+          <section className="pt-12 md:pt-0 xl:text-2xl xl:font-light">
             <h1 className="text-2xl font-semibold xl:text-3xl">Languages</h1>
             <ul className="pt-4">
               <li>HTML5</li>
@@ -20,7 +20,7 @@ const Skills = () => {
             </ul>
           </section>
 
-          <section className="pt-8 text-lg md:pt-0 xl:text-2xl xl:font-light">
+          <section className="pt-8 md:pt-0 xl:text-2xl xl:font-light">
             <h1 className="text-2xl font-semibold xl:text-3xl">Frameworks</h1>
             <ul className="pt-4">
               <li>React / NextJS</li>
@@ -30,7 +30,7 @@ const Skills = () => {
             </ul>
           </section>
 
-          <section className="pt-8 text-lg md:pt-0 xl:text-2xl xl:font-light">
+          <section className="pt-8 md:pt-0 xl:text-2xl xl:font-light">
             <h1 className="text-2xl font-semibold xl:text-3xl">Tools</h1>
             <ul className="pt-4">
               <li>Git</li>
