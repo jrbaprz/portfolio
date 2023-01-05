@@ -37,7 +37,7 @@ const Projects = () => {
               NextJS, Tailwind CSS, Framer Motion, and Shopify Storefront API.
             </p>
             <Link href="https://dittaartigianaleto.vercel.app/">
-              <div className="flex pt-4">
+              <div className="flex pt-4 hover:text-neutral-500 duration-200">
                 <p className="text-sm pr-1 md:text-lg">Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Projects = () => {
               using Figma and Wordpress.
             </p>
             <Link href="http://stakbuilds.com/">
-              <div className="flex pt-4 lg:justify-end">
+              <div className="flex pt-4 lg:justify-end hover:text-neutral-500 duration-200">
                 <p className="text-sm pr-1 md:text-lg">Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Projects = () => {
             </Link>
           </section>
         </div>
-        <div className="border-black border-t-4 mt-12 md:border-t-6 xl:border-t-8" />
+        <div className="border-black border-t-4 mt-12 md:border-t-6" />
       </div>
     </>
   );

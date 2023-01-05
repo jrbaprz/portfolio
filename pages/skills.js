@@ -42,7 +42,7 @@ const Skills = () => {
             </ul>
           </section>
         </div>
-        <div className="border-black border-t-4 mt-12 md:border-t-6 xl:border-t-8" />
+        <div className="border-black border-t-4 mt-12 md:border-t-6" />
       </div>
     </>
   );

@@ -36,12 +36,30 @@ const index = () => {
 
         <div className="hidden md:grid grid-cols-2 pt-24 pb-6 text-xl lg:text-2xl">
           <section className="flex flex-col font-light gap-2">
-            <h2 className="font-light underline underline-offset-4">
+            <Link
+              href="mailto:dev@jrbaprz.com"
+              className="mr-auto hover:text-neutral-500 bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+            >
               dev@jrbaprz.com
-            </h2>
-            <Link href="https://www.linkedin.com/in/jrbaprz/">LinkedIn</Link>
-            <Link href="https://github.com/jrbaprz">GitHub</Link>
-            <Link href="https://www.instagram.com/jrbaprz/">Instagram</Link>
+            </Link>
+            <Link
+              className="mr-auto hover:text-neutral-500 bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+              href="https://www.linkedin.com/in/jrbaprz/"
+            >
+              LinkedIn
+            </Link>
+            <Link
+              className="mr-auto hover:text-neutral-500 bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+              href="https://github.com/jrbaprz"
+            >
+              GitHub
+            </Link>
+            <Link
+              className="mr-auto hover:text-gray-400 bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+              href="https://www.instagram.com/jrbaprz/"
+            >
+              Instagram
+            </Link>
           </section>
           <p className="flex font-light items-end xl:w-96 xl:ml-auto">
             I&apos;m a frontend web developer based in Toronto, Canada with a
