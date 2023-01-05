@@ -76,7 +76,6 @@ const Skills = () => {
               <li>React / NextJS</li>
               <li>Tailwind CSS</li>
               <li>Framer Motion</li>
-              <li>REST</li>
             </motion.ul>
           </section>
 
@@ -104,8 +103,6 @@ const Skills = () => {
               viewport={{ once: true }}
             >
               <li>Git</li>
-              <li>Shopify API</li>
-              <li>Contentful CMS</li>
               <li>Figma</li>
               <li>Adobe Illustrator</li>
               <li>Asana (Agile Sprint Management)</li>
