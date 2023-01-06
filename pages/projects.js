@@ -9,9 +9,18 @@ const Projects = () => {
   return (
     <>
       <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
-        <section className="flex flex-col pt-16">
+        <motion.section
+          className="flex flex-col pt-16"
+          initial={{ opacity: 0, x: -25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 1,
+            delay: 0.75,
+          }}
+          viewport={{ once: true }}
+        >
           <h1 className="flex font-extrabold text-5xl md:text-7xl">Projects</h1>
-        </section>
+        </motion.section>
 
         {/* ===== Project ===== */}
 
@@ -22,7 +31,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
               duration: 1,
-              delay: 0.5,
+              delay: 0.75,
             }}
             viewport={{ once: true }}
           >
@@ -41,7 +50,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0.5,
+              delay: 0.75,
             }}
             viewport={{ once: true }}
           >
@@ -86,7 +95,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
               duration: 1,
-              delay: 0.5,
+              delay: 0.75,
             }}
             viewport={{ once: true }}
           >
@@ -104,7 +113,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0.5,
+              delay: 0.75,
             }}
             viewport={{ once: true }}
           >

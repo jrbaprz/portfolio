@@ -6,12 +6,12 @@ const Skills = () => {
     <>
       <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
         <motion.section
-          className="flex flex-col pt-16"
+          className="flex flex-col"
           initial={{ opacity: 0, x: -25 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             duration: 0.5,
-            delay: 0.5,
+            delay: 0.75,
           }}
           viewport={{ once: true }}
         >
@@ -28,7 +28,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0.5,
+                delay: 0.75,
               }}
               viewport={{ once: true }}
             >
@@ -40,7 +40,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 1,
+                delay: 1.25,
               }}
               viewport={{ once: true }}
             >
@@ -57,7 +57,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0.5,
+                delay: 0.75,
               }}
               viewport={{ once: true }}
             >
@@ -69,7 +69,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 1,
+                delay: 1.25,
               }}
               viewport={{ once: true }}
             >
@@ -86,7 +86,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0.5,
+                delay: 0.75,
               }}
               viewport={{ once: true }}
             >
@@ -98,7 +98,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 1,
+                delay: 1.25,
               }}
               viewport={{ once: true }}
             >
