@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ditta from "../public/ditta.jpg";
@@ -6,6 +6,11 @@ import stak from "../public/stak.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const vidRef = useRef();
+
+  useEffect(() => {
+    vidRef.current.play();
+  }, []);
   return (
     <>
       <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
@@ -36,10 +41,17 @@ const Projects = () => {
             viewport={{ once: true }}
           >
             <Link href="https://dittaartigianaleto.vercel.app/">
-              <Image
-                src={ditta}
-                alt="Photo of Ditta Hero Section"
-                className="border-2 border-black mb-2 rounded-md"
+              <video
+                className="border-4 border-black mb-2 rounded-md"
+                src="/Ditta.mp4"
+                alt="Video of Ditta"
+                type="video/mp4"
+                defaultMuted
+                muted={true}
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
+                ref={vidRef}
               />
             </Link>
           </motion.section>
@@ -103,7 +115,7 @@ const Projects = () => {
               <Image
                 src={stak}
                 alt="Photo of Stakreative Hero Section"
-                className="border-2 border-black mb-2 rounded-md"
+                className="border-4 border-black mb-2 rounded-md"
               />
             </Link>
           </motion.section>
