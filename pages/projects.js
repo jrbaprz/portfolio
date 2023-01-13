@@ -1,8 +1,5 @@
 import { React, useRef, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import ditta from "../public/ditta.jpg";
-import stak from "../public/stak.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -27,7 +24,7 @@ const Projects = () => {
           <h1 className="flex font-extrabold text-5xl md:text-7xl">Projects</h1>
         </motion.section>
 
-        {/* ===== Project ===== */}
+        {/* ===== Ditta TO ===== */}
 
         <div className="pb-12 lg:grid grid-cols-2 md:pt-16">
           <motion.section
@@ -98,7 +95,7 @@ const Projects = () => {
           </motion.section>
         </div>
 
-        {/* ===== Project ===== */}
+        {/* ===== Stakreative ===== */}
 
         <div className="lg:grid grid-cols-2 md:pt-16">
           <motion.section
@@ -112,10 +109,17 @@ const Projects = () => {
             viewport={{ once: true }}
           >
             <Link href="http://stakbuilds.com/">
-              <Image
-                src={stak}
-                alt="Photo of Stakreative Hero Section"
+              <video
                 className="border-4 border-black mb-2 rounded-md"
+                src="/Stakreative.mp4"
+                alt="Video of Stakreative"
+                type="video/mp4"
+                defaultMuted
+                muted={true}
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
+                ref={vidRef}
               />
             </Link>
           </motion.section>
