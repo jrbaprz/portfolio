@@ -9,10 +9,10 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>J.R Perez | Web Developer</title>
+        <title>J.R Perez | Full-Stack Developer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="min-h-screen w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20 xl:pt-32">
+      <div className="min-h-screen overflow-hidden bg-[#FAF9F6] p-10 lg:p-32 xl:pt-32">
         <motion.section
           className="flex flex-col pt-24 md:hidden"
           initial={{ opacity: 0, y: 25 }}
@@ -25,7 +25,7 @@ const index = () => {
         >
           <h1 className="flex font-extrabold text-7xl">J.R</h1>
           <h1 className="flex font-extrabold text-7xl">Perez</h1>
-          <h2 className="text-xl pt-2 font-bold">Frontend Web Developer</h2>
+          <h2 className="text-xl pt-2 font-bold">Full-Stack Developer</h2>
           <div className="pt-6">
             <Link
               href="mailto:dev@jrbaprz.com"
@@ -47,7 +47,7 @@ const index = () => {
             }}
             viewport={{ once: true }}
           >
-            Hi there! I&apos;m a web developer based in Toronto, Canada with a
+            Hi there! I&apos;m a full-stack developer based in Toronto, Canada with a
             love for creative design and detail.
           </motion.p>
 
@@ -92,7 +92,7 @@ const index = () => {
           <h1 className="flex font-extrabold text-8xl xl:text-[8rem]">
             J.R Perez
           </h1>
-          <h2 className="text-3xl font-bold pt-2">Frontend Web Developer</h2>
+          <h2 className="text-3xl font-bold pt-2">Full-Stack Developer</h2>
         </motion.section>
 
         <div className="hidden md:grid grid-cols-2 pt-24 pb-6 text-xl lg:text-2xl">
@@ -158,7 +158,7 @@ const index = () => {
             }}
             viewport={{ once: true }}
           >
-            Hi there! I&apos;m a web developer based in Toronto, Canada with a
+            Hi there! I&apos;m a full-stack developer based in Toronto, Canada with a
             love for creative design and detail.
           </motion.p>
         </div>
@@ -201,6 +201,7 @@ const index = () => {
           </motion.div>
         </div>
       </div>
+      
       <Skills />
       <Projects />
     </>

@@ -10,7 +10,7 @@ const Projects = () => {
   }, []);
   return (
     <>
-      <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
+      <div className="overflow-hidden bg-[#FAF9F6] p-10 lg:p-32 xl:pt-32">
         <motion.section
           className="flex flex-col pt-16"
           initial={{ opacity: 0, x: -25 }}

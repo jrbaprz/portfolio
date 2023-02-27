@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <>
-      <div className="w-screen bg-[#F5F5F5] p-6 md:p-10 xl:p-20">
+      <div className="overflow-hidden bg-[#FAF9F6] p-10 lg:p-32 xl:pt-32">
         <motion.section
           className="flex flex-col"
           initial={{ opacity: 0, x: -25 }}
@@ -20,7 +20,7 @@ const Skills = () => {
           </h1>
         </motion.section>
 
-        <div className="md:grid grid-cols-3 md:pt-16">
+        <div className="md:grid grid-cols-4 md:pt-16">
           <section className="pt-12 md:pt-0 xl:text-2xl xl:font-light">
             <motion.h1
               className="text-2xl font-semibold xl:text-3xl"
@@ -44,9 +44,11 @@ const Skills = () => {
               }}
               viewport={{ once: true }}
             >
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript (ES6+)</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>SQL</li>
             </motion.ul>
           </section>
 
@@ -75,7 +77,36 @@ const Skills = () => {
             >
               <li>React / NextJS</li>
               <li>Tailwind CSS</li>
+              <li>Node.js/Express.js</li>
+              <li>Django</li>
               <li>Framer Motion</li>
+            </motion.ul>
+          </section>
+
+          <section className="pt-12 md:pt-0 xl:text-2xl xl:font-light">
+            <motion.h1
+              className="text-2xl font-semibold xl:text-3xl"
+              initial={{ opacity: 0, x: -25 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.75,
+              }}
+              viewport={{ once: true }}
+            >
+              Databases
+            </motion.h1>
+            <motion.ul
+              className="pt-4"
+              initial={{ opacity: 0, x: 25 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 1.25,
+              }}
+              viewport={{ once: true }}
+            >
+              <li>Postgres</li>
             </motion.ul>
           </section>
 
