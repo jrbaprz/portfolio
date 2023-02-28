@@ -49,6 +49,7 @@ const Skills = () => {
               <li>JavaScript</li>
               <li>Python</li>
               <li>SQL</li>
+              <li>NoSQL</li>
             </motion.ul>
           </section>
 
@@ -78,7 +79,6 @@ const Skills = () => {
               <li>React / NextJS</li>
               <li>Tailwind CSS</li>
               <li>Node.js/Express.js</li>
-              <li>Django</li>
               <li>Framer Motion</li>
             </motion.ul>
           </section>
@@ -107,6 +107,7 @@ const Skills = () => {
               viewport={{ once: true }}
             >
               <li>Postgres</li>
+              <li>DjangoDB</li>
             </motion.ul>
           </section>
 
