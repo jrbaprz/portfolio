@@ -44,12 +44,11 @@ const Skills = () => {
               }}
               viewport={{ once: true }}
             >
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>JavaScript</li>
               <li>Python</li>
               <li>SQL</li>
-              <li>NoSQL</li>
             </motion.ul>
           </section>
 
@@ -76,7 +75,8 @@ const Skills = () => {
               }}
               viewport={{ once: true }}
             >
-              <li>React / NextJS</li>
+              <li>React</li>
+              <li>Next.js</li>
               <li>Tailwind CSS</li>
               <li>Node.js/Express.js</li>
               <li>Framer Motion</li>
@@ -106,8 +106,7 @@ const Skills = () => {
               }}
               viewport={{ once: true }}
             >
-              <li>Postgres</li>
-              <li>DjangoDB</li>
+              <li>PostgreSQL</li>
             </motion.ul>
           </section>
 
